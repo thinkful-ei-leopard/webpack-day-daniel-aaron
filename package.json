@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Created for the Thinkful EI Program.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thinkful-ei-leopard/webpack-day-daniel-aaron.git"
@@ -18,6 +15,7 @@
   },
   "homepage": "https://github.com/thinkful-ei-leopard/webpack-day-daniel-aaron#readme",
   "dependencies": {
+    "cuid": "^2.1.8",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
@@ -30,7 +28,7 @@
     "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
-    "start": "webpack-dev-server", 
+    "start": "webpack-dev-server",
     "build": "webpack --mode production"
   }
 }
